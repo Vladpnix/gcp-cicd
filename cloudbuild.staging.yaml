@@ -2,15 +2,15 @@
 #
 
 steps:
-- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+- name: 'eu.gcr.io/staging-352819/gcf'
   args: ['echo', 'Building...']
   id: BUILD
 
-- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+- name: 'eu.gcr.io/staging-352819/gcf'
   args: ['echo', 'Testing...']
   id: TEST
 
-- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+- name: 'eu.gcr.io/staging-352819/gcf'
   args:
   - gcloud
   - functions
